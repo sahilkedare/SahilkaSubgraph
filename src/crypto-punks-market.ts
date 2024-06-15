@@ -19,6 +19,8 @@ import {
   PunkNoLongerForSale
 } from "../generated/schema"
 
+const graphApiUrl = "https://api.studio.thegraph.com/query/79260/sahilkasubgraph/v0.0.1";
+
 export function handleAssign(event: AssignEvent): void {
   let entity = new Assign(
     event.transaction.hash.concatI32(event.logIndex.toI32())
