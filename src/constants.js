@@ -1,0 +1,1 @@
+const subGraphUrl = "https://api.studio.thegraph.com/query/79260/sahilkasubgraph/v0.0.1";
